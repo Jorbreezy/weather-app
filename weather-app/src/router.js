@@ -5,6 +5,9 @@ import {
   Link
 } from 'react-router-dom'
 
+import Weekly from './week.js'
+import Day from './day.js'
+
 const BasicExample = () => (
   <Router>
     <div>
@@ -21,18 +24,5 @@ const BasicExample = () => (
     </div>
   </Router>
 )
-
-const Weekly = () => (
-  <div>
-    <h2>Weekly Forcast</h2>
-  </div>
-)
-
-const Day = () => (
-  <div>
-    <h2>Daily Forcast</h2>
-  </div>
-)
-
-
+ 
 export default BasicExample
